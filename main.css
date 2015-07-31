@@ -15,11 +15,12 @@
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: fixed;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:40px;
 }
 
 .jumbotron h1 {
@@ -30,7 +31,7 @@
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
 }
 
@@ -62,7 +63,6 @@
     font-size: 15px;
     margin-bottom: 13px;
 }
-
 
 
 
