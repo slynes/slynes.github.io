@@ -33,6 +33,7 @@
 .jumbotron p {
   font-size: 25px;
   color: #fff;
+  font-family: 'Shift', sans-serif;
 }
 
 .learn-more {
@@ -50,7 +51,7 @@
 }
 
 .Aboutme {
-    background-color: #efefef;
+    background-color: #B3CDE0;
     border-bottom: 1px solid #dbdbdb;
 }
 
@@ -64,6 +65,14 @@
     font-size: 15px;
     margin-bottom: 13px;
     text-align: center;
+}
+
+.social h2 {
+  text-align: center;
+}
+
+.social p {
+  text-align: center;
 }
 
 
