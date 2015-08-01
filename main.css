@@ -69,17 +69,29 @@
 
 .social h2 {
   text-align: center;
+  color: #fff;
 }
 
 .social p {
   text-align: center;
+  color: #fff;
 }
 
 .social h3 {
   text-align: center;
 }
 
+.social {
+  background-color: #6497B1;
+}
 
+.caption p {
+  color: #000000;
+}
+
+.social .container {
+position: relative;
+}
 
 
 
