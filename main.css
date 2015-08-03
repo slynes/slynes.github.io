@@ -53,6 +53,7 @@
 .Aboutme {
     background-color: #B3CDE0;
     border-bottom: 1px solid #dbdbdb;
+    width: 100%;
 }
 
 .Aboutme h2 {
@@ -83,6 +84,7 @@
 
 .social {
   background-color: #6497B1;
+  width: 100%;
 }
 
 .caption p {
@@ -90,15 +92,5 @@
 }
 
 .social .container {
-position: relative;
+  position: relative;
 }
-
-
-
-
-
-
-
-
-
-
