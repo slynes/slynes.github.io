@@ -26,14 +26,14 @@
 .jumbotron h1 {
   color: #fff;
   font-size: 60px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
-  font-size: 25px;
+  font-size: 24px;
   color: #fff;
-  font-family: 'Shift', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .learn-more {
@@ -41,7 +41,7 @@
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
@@ -60,26 +60,31 @@
     color: #393c3d;
     font-size: 24px;
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .Aboutme p {
     font-size: 15px;
     margin-bottom: 13px;
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .social h2 {
   text-align: center;
   color: #fff;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .social p {
   text-align: center;
   color: #fff;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .social h3 {
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .social {
@@ -89,10 +94,30 @@
 
 .caption p {
   color: #000000;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .social .container {
   text-align: center;
+}
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 7px 12px;
+  transition: all .1s linear;
+  font-family: 'Varela Round', sans-serif;
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
 }
 
 .grow {
