@@ -117,7 +117,7 @@ button {
   font-family: 'Varela Round', sans-serif;
 }
 button:active {
-  box-shadow: 0 2px 0 #006599;
+  box-shadow: 0 2px 0 #E16D00;
   transform: translateY(3px);
 }
 
