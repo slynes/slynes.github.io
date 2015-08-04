@@ -1,10 +1,10 @@
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
-   font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .nav li {
