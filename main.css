@@ -1,14 +1,15 @@
 .nav a {
-  color: #5a5a5a;
+  color: #fff;
   font-size: 13px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 10px 7px;
   text-transform: uppercase;
   font-family: 'Varela Round', sans-serif;
 }
 
 .nav li {
   display: inline;
+  top: 10px;
 }
 
 .jumbotron {
@@ -19,6 +20,7 @@
   background-position: fixed;
   background-attachment: fixed;
   margin: 0;
+  text-align: center;
 }
 
 .jumbotron .container {
@@ -31,12 +33,18 @@
   font-size: 60px;  
   font-family: 'Varela Round', sans-serif;
   font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron button {
+  text-align: center;
 }
 
 .jumbotron p {
   font-size: 24px;
   color: #fff;
   font-family: 'Varela Round', sans-serif;
+  text-align: center;
 }
 
 .learn-more {
@@ -121,6 +129,7 @@ button {
   padding: 7px 12px;
   transition: all .1s linear;
   font-family: 'Varela Round', sans-serif;
+  position: relative;
 }
 button:active {
   box-shadow: 0 2px 0 #E16D00;
