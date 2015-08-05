@@ -52,7 +52,7 @@
 }
 
 .Aboutme {
-    background-color: #B3CDE0;
+    background-color: #FFA500;
     border-bottom: 1px solid #dbdbdb;
     width: 100%;
 }
@@ -92,7 +92,7 @@
 }
 
 .social {
-  background-color: #6497B1;
+  background-color: #1E90FF;
   width: 100%;
 }
 
@@ -139,4 +139,23 @@ button:active {
 .grow:focus,
 .grow:active {
     transform: scale(1.04);
+}
+
+.contact {
+  background-color: #FF0000;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  
+}
+
+.contact h2 {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.contact p {
+    font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #fff;
 }
