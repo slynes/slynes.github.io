@@ -9,7 +9,7 @@
 
 .nav li {
   display: inline;
-  top: 10px;
+  top: 1px;
 }
 
 .jumbotron {
@@ -21,6 +21,7 @@
   background-attachment: fixed;
   margin: 0;
   text-align: center;
+  padding: 20px;
 }
 
 .jumbotron .container {
