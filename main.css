@@ -143,10 +143,14 @@ button:active {
 }
 
 .contact {
-  background-color: #00FF00;
+  background-color: #74D600;
   border-bottom: 1px solid #dbdbdb;
   width: 100%;
   
+}
+
+.contact .container {
+  position: relative;
 }
 
 .contact h2 {
