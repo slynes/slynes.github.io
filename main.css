@@ -18,6 +18,7 @@
   background-size: cover;
   background-position: fixed;
   background-attachment: fixed;
+  margin: 0;
 }
 
 .jumbotron .container {
