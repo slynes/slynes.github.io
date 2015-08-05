@@ -58,7 +58,7 @@
 }
 
 .Aboutme h2 {
-    color: #393c3d;
+    color: #fff;
     font-size: 24px;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
@@ -70,6 +70,7 @@
     margin-bottom: 13px;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
+    color: #fff;
 }
 
 .social h2 {
@@ -142,7 +143,7 @@ button:active {
 }
 
 .contact {
-  background-color: #FF0000;
+  background-color: #00FF00;
   border-bottom: 1px solid #dbdbdb;
   width: 100%;
   
