@@ -176,3 +176,9 @@ button:active {
   text-align: center;
   color: #fff;
 }
+
+.icon-mail {
+  font-size: 60px;
+  color: #fff;
+  position: relative;
+}
