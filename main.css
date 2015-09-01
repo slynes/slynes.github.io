@@ -117,7 +117,7 @@
   text-align: center;
 }
 
-button {
+.orangebutton {
   border: 0;
   background: #FFA112;
   border-radius: 4px;
@@ -132,7 +132,7 @@ button {
   font-family: 'Varela Round', sans-serif;
   position: relative;
 }
-button:active {
+.orangebutton:active {
   box-shadow: 0 2px 0 #E16D00;
   transform: translateY(3px);
 }
@@ -181,4 +181,22 @@ button:active {
   font-size: 60px;
   color: #fff;
   position: relative;
+}
+
+.testbutton {
+  font-family: helvetica;
+  color: #fff !important;
+  font-size: 14px;
+  padding: 5px 19px;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  background-color: #74D600;
+  border: 3px solid #fff;
+  text-align: center;
+  position: relative;
+}
+.testbutton:hover {
+  color: #74D600!important;
+  background: #fff;
 }
