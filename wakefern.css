@@ -1,0 +1,17 @@
+.jumbotron h1 {
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bold; 
+	color: #fff;
+}
+
+.jumbotron {
+	background-color: #da291c;
+	background-position: fixed;
+	background-attachment: fixed;
+}
+
+.Programmer {
+	font-family: 'Varela Round', sans-serif;
+
+}
