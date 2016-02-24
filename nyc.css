@@ -6,39 +6,12 @@
 }
 
 .jumbotron {
-	background-color: #4587DE;
-	margin-bottom: 0;
+	background-color: #024D21;
+	background-position: fixed;
+	background-attachment: fixed;
 }
 
-h2 {
-	text-align: center;
+.ITSEC {
 	font-family: 'Varela Round', sans-serif;
-	color: #fff;
-	font-size: 60px;
-	top: 10px;
-	margin-top: 20%;
-}
 
-p {
-	text-align: center;
-	font-family: 'Varela Round', sans-serif;
-	color: #fff;
-	font-size: 30px;
-}
-
-
- .nyc {
- 	background-image: url('freedom.jpg');
-	height: 800px;
-	background-repeat: no-repeat;
-  	background-size: cover;
-  	text-align: center;
-
-}
-
-
-
-.jumbotron .container {
-	position: relative;
-	top: 40px;
 }
