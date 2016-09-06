@@ -1,0 +1,202 @@
+.nav a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 7px;
+  text-transform: uppercase;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.nav li {
+  display: inline;
+  top: 1px;
+}
+
+.jumbotron {
+  background-image:url('nyc.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:40px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 60px;  
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron button {
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.Aboutme {
+    background-color: #FFA500;
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+}
+
+.Aboutme h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.Aboutme p {
+    font-size: 15px;
+    margin-bottom: 13px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+}
+
+.social h2 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+.social p {
+  text-align: center;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.social h3 {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+.social {
+  background-color: #A8A6A7;
+  width: 100%;
+}
+
+.caption p {
+  color: #000000;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.social .container {
+  text-align: center;
+}
+
+.orangebutton {
+  border: 0;
+  background: #FFA112;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #E16D00;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 7px 12px;
+  transition: all .1s linear;
+  font-family: 'Varela Round', sans-serif;
+  position: relative;
+}
+.orangebutton:active {
+  box-shadow: 0 2px 0 #E16D00;
+  transform: translateY(3px);
+}
+
+.grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.grow:hover,
+.grow:focus,
+.grow:active {
+    transform: scale(1.04);
+}
+
+.contact {
+  background-color: #a2b5cd;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  
+}
+
+.contact .container {
+  position: relative;
+}
+
+.contact h2 {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.contact p {
+    font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.icon-mail {
+  font-size: 60px;
+  color: #fff;
+  position: relative;
+}
+
+.testbutton {
+  font-family: helvetica;
+  color: #fff !important;
+  font-size: 14px;
+  padding: 5px 19px;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  background-color: #74D600;
+  border: 3px solid #fff;
+  text-align: center;
+  position: relative;
+}
+.testbutton:hover {
+  color: #74D600!important;
+  background: #fff;
+}
