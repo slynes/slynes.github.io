@@ -57,7 +57,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: rgba(0,0,0, 0);
+  background-color: white;
   border-color: rgba(34, 34, 34);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.5s;
