@@ -452,7 +452,7 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 50px 50px;
     background-color: #f8f8f8;
 }
 
@@ -527,5 +527,4 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
-
 
