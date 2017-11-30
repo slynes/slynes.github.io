@@ -15,6 +15,15 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="java.js"></script>
+
+    <!-- Main page CSS styling sheet -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!--- Google font imports -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -26,6 +35,20 @@
 
     <div class="jumbotron">
         <h1>Shane Lynes</h1>
+        <p id="typedOut">Computer Engineer</p>
+
+        <!-- This will be the start of the custom navbar -->
+        <div class="row">
+            <div id="navbar1" class="col-md-1">Home</div>
+            <div id="navbar2" class="col-md-1 col-md-offset-0">About</div>
+            <div id="navbar3" class="col-md-1 col-md-offset-0">Contact</div>
+        </div>
+
+        <div id="buttonBox">
+            <button>About</button>
+            <script>showButton()</script>
+        </div>
+
     </div>
 
 </body>

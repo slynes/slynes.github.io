@@ -1,0 +1,110 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100%;
+}
+
+.jumbotron {
+	background-size: 100% 100%;
+	background-image: url('website.jpg');
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0;
+	height: 100vh;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	font-size: 90px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	vertical-align: middle;
+	position: relative;
+	font-weight: bold;
+	top: 35%;
+}
+
+#typedOut {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+	font-weight: bold;
+	position: relative;
+	top: 37%;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid transparent; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  	animation: 
+    	typing 6.0s steps(40, end),
+    	blink-caret .75s step-end 2.0;
+}
+
+#navbar1 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+	font-weight: bold;
+	position: relative;
+	top: -200px;
+	left: 30px;
+}
+
+#navbar2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+	font-weight: bold;
+	position: relative;
+	top: -200px;
+	left: 15px;
+}
+
+#navbar3{
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+	font-weight: bold;
+	position: relative;
+	top: -200px;
+}
+
+#buttonBox {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 20px;
+	vertical-align: middle;
+	margin-top: 300px;
+	display: none;
+}
+
+#buttonBox button {
+	width: 175px;
+	height: 40px;
+	background-color: #F05F40;
+	border-radius: 37px; 
+	-moz-border-radius: 37px; 
+	-webkit-border-radius: 37px; 
+	border: 0px solid #800000;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
