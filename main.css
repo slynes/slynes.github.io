@@ -2,7 +2,9 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     width: 100%;
-    min-height: 100%;
+	min-height: 100%;
+	margin:0;
+	padding:0;
 }
 
 .jumbotron {
@@ -13,6 +15,7 @@ html, body {
 	height: 100%;
 	margin-bottom: 0;
 	height: 100vh;
+	border-radius: 0px;
 }
 
 .jumbotron h1 {
@@ -67,17 +70,6 @@ html, body {
 	top: 28%;
 }
 
-/* button {
-	text-align: center;
-	position: relative;
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	font-size: 20px;
-	vertical-align: middle;
-	display: none;
-	transition: all .2s easin-in;
-} */
-
 button {
 
 	margin-top: 20px;
@@ -102,6 +94,11 @@ button:hover {
 
 button:focus {
 	outline: none;
+}
+
+#moreinfo {
+	background-color: #F05F40;
+	height: 50vh;
 }
 
 /* The typing effect */
