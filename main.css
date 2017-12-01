@@ -56,6 +56,7 @@ html, body {
 
 .nav-link:hover {
 	color: #F05F40;
+	font-weight: bold;
 }
 
 #wrapper {
@@ -96,6 +97,7 @@ button {
 button:hover {
 	background-color: #F05F40;
 	color: white;
+	cursor: pointer;
 }
 
 button:focus {
