@@ -13,8 +13,10 @@
     <title>Shane Lynes</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="java.js"></script>
 
@@ -34,16 +36,24 @@
 <body>
 
     <div class="jumbotron">
-        <h1>Shane Lynes</h1>
-        <p id="typedOut">Computer Engineer</p>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
 
-        <div id="buttonBox">
-            <button>About</button>
-            <script>showButton()</script>
+        <div id="wrapper">
+            <h1>Shane Lynes</h1>
+            <p id="typedOut">Computer Engineer</p>
+            <button>ABOUT</button>
         </div>
-
     </div>
-
 </body>
 
 </html>

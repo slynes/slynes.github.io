@@ -1,3 +1,3 @@
-function showButton() {
-	$("#buttonBox").css('display', 'block');
-}
+setTimeout(function showButton() {
+	$('button').fadeIn(2000);
+}, 2000);

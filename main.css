@@ -6,8 +6,9 @@ html, body {
 }
 
 .jumbotron {
-	background-size: 100% 100%;
+	background-size: cover;
 	background-image: url('website.jpg');
+	background-position: bottom center;
 	width: 100%;
 	height: 100%;
 	margin-bottom: 0;
@@ -22,7 +23,7 @@ html, body {
 	vertical-align: middle;
 	position: relative;
 	font-weight: bold;
-	top: 35%;
+	top: 38%;
 }
 
 #typedOut {
@@ -33,68 +34,74 @@ html, body {
 	vertical-align: middle;
 	font-weight: bold;
 	position: relative;
-	top: 37%;
+	top: 38%;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
   	border-right: .15em solid transparent; /* The typwriter cursor */
   	white-space: nowrap; /* Keeps the content on a single line */
   	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   	animation: 
-    	typing 6.0s steps(40, end),
+    	typing 4.0s steps(40, end),
     	blink-caret .75s step-end 2.0;
 }
 
-#navbar1 {
-	color: white;
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	vertical-align: middle;
-	font-weight: bold;
-	position: relative;
-	top: -200px;
-	left: 30px;
+.nav {
+	margin-top: -40px;
 }
 
-#navbar2 {
+.nav-link {
 	color: white;
-	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
-	vertical-align: middle;
-	font-weight: bold;
-	position: relative;
-	top: -200px;
-	left: 15px;
+	font-size: 22px;
 }
 
-#navbar3{
-	color: white;
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	vertical-align: middle;
-	font-weight: bold;
-	position: relative;
-	top: -200px;
+.nav-link:hover {
+	color: #F05F40;
 }
 
-#buttonBox {
+#wrapper {
+	margin: 0 auto;
 	text-align: center;
+	width:960px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* button {
+	text-align: center;
+	position: relative;
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	font-size: 20px;
 	vertical-align: middle;
-	margin-top: 300px;
+	display: none;
+	transition: all .2s easin-in;
+} */
+
+button {
+
+	margin-top: 20px;
+	width: 175px;
+	color: #F05F40;
+	position: relative;
+	height: 40px;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 37px; 
+	border: 3px solid #F05F40;
+	-moz-border-radius: 37px; 
+	-webkit-border-radius: 37px;
 	display: none;
 }
 
-#buttonBox button {
-	width: 175px;
-	height: 40px;
+button:hover {
 	background-color: #F05F40;
-	border-radius: 37px; 
-	-moz-border-radius: 37px; 
-	-webkit-border-radius: 37px; 
-	border: 0px solid #800000;
+	color: white;
 }
 
+button:focus {
+	outline: none;
+}
 
 /* The typing effect */
 @keyframes typing {
