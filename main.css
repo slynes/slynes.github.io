@@ -63,8 +63,7 @@ html, body {
 	text-align: center;
 	width:960px;
 	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	top: 25%;
 }
 
 /* button {
