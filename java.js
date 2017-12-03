@@ -9,3 +9,12 @@ $(document).ready(function (){
 		}, 2000);
 	});
 });
+
+$(document).ready(function (){
+	$("#about").click(function (){
+		$('html, body').animate({
+			scrollTop: $("#moreinfo").offset().top
+		}, 2000);
+	});
+});
+
