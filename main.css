@@ -70,6 +70,13 @@ html, body {
 	top: 28%;
 }
 
+#wrapper2 {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 5%;
+}
+
 button {
 
 	margin-top: 20px;
@@ -109,19 +116,17 @@ button:focus {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 40px;
-	top: 5%;
 }
 
 #firstColumn {
 	text-align: center;
 	position: relative;
 	color: white;
-	margin-top: 50px;
 }
 
 #firstColumn img {
-	height: 500px;
-	width: 400px;
+	height: 350px;
+	width: 300px;
 	visibility: hidden;
 }
 
@@ -129,8 +134,8 @@ button:focus {
 	text-align: center;
 	position: relative;
 	color: white;
-	margin-top: 135px;
-	font-size: 30px;
+	font-size: 25px;
+	margin-top: 35px;
 }
 
 /* The typing effect */
