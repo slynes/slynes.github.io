@@ -20,3 +20,13 @@ $(document).ready(function (){
 	});
 });
 
+window.sr = ScrollReveal();
+
+$(document).ready(function() {
+	sr.reveal('#idBio', { duration: 1000 });
+});
+
+$(document).ready(function() {
+	sr.reveal('.img-thumbnail', { duration: 1000 });
+});
+

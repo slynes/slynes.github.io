@@ -44,7 +44,7 @@ html, body {
   	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   	animation: 
     	typing 4.0s steps(40, end),
-    	blink-caret .75s step-end 2.0;
+    	blink-caret 1.1s step-end 2.0;
 }
 
 .nav {
@@ -99,7 +99,38 @@ button:focus {
 
 #moreinfo {
 	background-color: #F05F40;
-	height: 50vh;
+	height: 75vh;
+}
+
+#moreinfo h1 {
+	text-align: center;
+	color: white;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	top: 5%;
+}
+
+#firstColumn {
+	text-align: center;
+	position: relative;
+	color: white;
+	margin-top: 50px;
+}
+
+#firstColumn img {
+	height: 500px;
+	width: 400px;
+	visibility: hidden;
+}
+
+#secondColumn {
+	text-align: center;
+	position: relative;
+	color: white;
+	margin-top: 135px;
+	font-size: 30px;
 }
 
 /* The typing effect */
@@ -113,4 +144,3 @@ button:focus {
   from, to { border-color: transparent }
   50% { border-color: white; }
 }
-
