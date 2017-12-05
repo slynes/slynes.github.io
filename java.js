@@ -1,5 +1,5 @@
 setTimeout(function showButton() {
-	$('button').fadeIn(2000);
+	$('button').fadeIn(1500);
 }, 2000);
 
 //function for the About button to seamlessly scroll down to about section on click
