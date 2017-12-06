@@ -73,6 +73,7 @@ html, body {
 #wrapper2 {
 	margin: 0 auto;
 	text-align: center;
+	width: 1800px;
 	position: relative;
 	top: 5%;
 }
@@ -118,24 +119,30 @@ button:focus {
 	font-size: 40px;
 }
 
+#aboutRow {
+	margin-top: 1%;
+}
 #firstColumn {
+	margin: 0 auto;
 	text-align: center;
 	position: relative;
 	color: white;
 }
 
 #firstColumn img {
-	height: 350px;
-	width: 300px;
+	height: 450px;
+	width: auto;
 	visibility: hidden;
+	margin-top: 2%;
 }
 
 #secondColumn {
+	margin: 0 auto;
 	text-align: center;
 	position: relative;
 	color: white;
-	font-size: 25px;
-	margin-top: 35px;
+	font-size: 30px;
+	margin-top: 5%;
 }
 
 /* The typing effect */
@@ -148,4 +155,87 @@ button:focus {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: white; }
+}
+
+
+/* Code to adjust to different screen sizes */
+
+
+/* Bigscreens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+
+	#wrapper2 {
+		margin: 0 auto;
+		text-align: center;
+		width: 1800px;
+		position: relative;
+		top: 5%;
+	}
+
+	#aboutRow {
+		margin-top: 1%;
+	}
+	#firstColumn {
+		margin: 0 auto;
+		text-align: center;
+		position: relative;
+		color: white;
+	}
+	
+	#firstColumn img {
+		height: 450px;
+		width: auto;
+		visibility: hidden;
+		margin-top: 2%;
+	}
+	
+	#secondColumn {
+		margin: 0 auto;
+		text-align: center;
+		position: relative;
+		color: white;
+		font-size: 30px;
+		margin-top: 5%;
+	}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  
+	#wrapper2 {
+		margin: 0 auto;
+		text-align: center;
+		width: 1200px;
+		position: relative;
+		top: 5%;
+	}
+
+	#aboutRow {
+		margin-top: 1%;
+	}
+	#firstColumn {
+		margin: 0 auto;
+		text-align: center;
+		position: relative;
+		color: white;
+	}
+	
+	#firstColumn img {
+		height: 350px;
+		width: auto;
+		visibility: hidden;
+		margin-top: 2%;
+	}
+	
+	#secondColumn {
+		margin: 0 auto;
+		text-align: center;
+		position: relative;
+		color: white;
+		font-size: 25px;
+		margin-top: 4%;
+	}
 }
