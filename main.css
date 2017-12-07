@@ -163,7 +163,8 @@ button:focus {
 
 /* Bigscreens ----------- */
 @media only screen 
-and (min-width : 1824px) {
+and (min-width : 1824px)
+and (max-width: 3000px) {
 
 	#wrapper2 {
 		margin: 0 auto;
@@ -203,7 +204,8 @@ and (min-width : 1824px) {
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 1224px)
+and (max-width: 1600px) {
   
 	#wrapper2 {
 		margin: 0 auto;
