@@ -78,7 +78,15 @@ html, body {
 	top: 5%;
 }
 
-button {
+#wrapper3 {
+	margin: 0 auto;
+	text-align: center;
+	width:1800px;
+	position: relative;
+	top: 5%;
+}
+
+#aboutButton {
 
 	margin-top: 20px;
 	width: 175px;
@@ -94,14 +102,14 @@ button {
 	display: none;
 }
 
-button:hover {
+#aboutButton:hover {
 	background-color: #F05F40;
 	color: white;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 }
 
-button:focus {
+#aboutButton:focus {
 	outline: none;
 }
 
@@ -122,6 +130,7 @@ button:focus {
 #aboutRow {
 	margin-top: 1%;
 }
+
 #firstColumn {
 	margin: 0 auto;
 	text-align: center;
@@ -143,6 +152,127 @@ button:focus {
 	color: white;
 	font-size: 30px;
 	margin-top: 5%;
+}
+
+#arrowWrapper {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 50px;
+	top:100vh;
+	transform:translateY(-100%);
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid white;
+	opacity: 0.6;
+	margin-left: 50%;
+}
+
+.arrow-down:hover {
+	cursor: pointer;
+	opacity: 1.0;
+	transition: all 0.3s ease 0s;
+}
+
+#stevens {
+	background-color: white;
+	height: 80vh;
+}
+
+#stevensFirstColumn {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	color: white;
+}
+
+#stevensFirstColumn img {
+	height: 350px;
+	width: auto;
+	visibility: hidden;
+	margin-top: 2%;
+	border-radius: 0px;
+	background: transparent;
+}
+
+.img-thumbnail {
+	border: 0px;
+}
+
+#stevens h1 {
+	text-align: center;
+	color: black;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#secondColumnStevens {
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	color: black;
+	font-size: 25px;
+	margin-top: 4%;
+}
+
+#stevens button {
+	display: inline-block;
+}
+
+#stevensButton {
+	top: -40px;
+	width: 175px;
+	color: #9D1535;;
+	position: relative;
+	height: 40px;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 37px; 
+	border: 3px solid #9D1535;;
+	-moz-border-radius: 37px; 
+	-webkit-border-radius: 37px;
+	left: 16%;
+}
+	
+#stevensButton:hover {
+	background-color: #9D1535;;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+	
+#stevensButton:focus {
+	outline: none;
+}
+
+#stevensClassButton {
+	top: -40px;
+	width: 175px;
+	color: white;
+	position: relative;
+	height: 40px;
+	text-align: center;
+	background-color: #9D1535;
+	border-radius: 37px; 
+	border: 3px solid #9D1535;
+	-moz-border-radius: 37px; 
+	-webkit-border-radius: 37px;
+	left: 18%;
+}
+
+#stevensClassButton:hover {
+	cursor: pointer;
+}
+
+#stevensClassButton:focus {
+	outline: none;
 }
 
 /* The typing effect  hi test*/
@@ -191,16 +321,69 @@ button:focus {
 	
 	#secondColumn {
 		margin: 0 auto;
-		text-align: center;
+		text-align: left;
 		position: relative;
 		color: white;
 		font-size: 30px;
 		margin-top: 5%;
 	}
 
+	.arrow-down {
+		width: 0; 
+		height: 0; 
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 20px solid white;
+		opacity: 0.6;
+		margin-left: 50%;
+		margin-top: 4%;
+	}
+
+	#secondColumnStevens {
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		color: black;
+		font-size: 30px;
+		margin-top: 6%;
+	}
+
+	#stevensClassButton {
+		top: -130px;
+		width: 200px;
+		color: white;
+		position: relative;
+		height: 50px;
+		text-align: center;
+		font-size: 18px;
+		background-color: #9D1535;
+		border-radius: 37px; 
+		border: 3px solid #9D1535;
+		-moz-border-radius: 37px; 
+		-webkit-border-radius: 37px;
+		left: 18%;
+	}
+
+	#stevensButton {
+		top: -130px;
+		width: 200px;
+		color: #9D1535;;
+		position: relative;
+		height: 50px;
+		text-align: center;
+		font-size: 18px;
+		background-color: transparent;
+		border-radius: 37px; 
+		border: 3px solid #9D1535;;
+		-moz-border-radius: 37px; 
+		-webkit-border-radius: 37px;
+		left: 16%;
+	}
+		
+
 }
 
-/* Desktops and laptops -----------  HI test*/
+/* Desktops and laptops -----------*/
 @media only screen and (min-width : 1224px) and (max-width: 1600px) {
   
 	#wrapper2 {
@@ -211,9 +394,18 @@ button:focus {
 		top: 5%;
 	}
 
+	#wrapper3 {
+		margin: 0 auto;
+		text-align: center;
+		width:1200px;
+		position: relative;
+		top: 5%;
+	}
+
 	#aboutRow {
 		margin-top: 1%;
 	}
+
 	#firstColumn {
 		margin: 0 auto;
 		text-align: center;
@@ -230,10 +422,11 @@ button:focus {
 	
 	#secondColumn {
 		margin: 0 auto;
-		text-align: center;
+		text-align: left;
 		position: relative;
 		color: white;
 		font-size: 25px;
 		margin-top: 4%;
 	}
+
 }
