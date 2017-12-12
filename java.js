@@ -20,7 +20,7 @@ $(document).ready(function (){
 	});
 });
 
-//function for the arrow at bottom of more info div to go down to Stevens div
+//function for the arrow at bottom of more info div to go down to Stevens div hi
 $(document).ready(function (){
 	$(".arrow-down").click(function (){
 		$('html, body').animate({
