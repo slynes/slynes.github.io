@@ -60,6 +60,8 @@ $(document).ready(function (){
 
 	sr.reveal('#infocolumn', { duration: 1000 });
 
+	document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
+
 });
 
 
