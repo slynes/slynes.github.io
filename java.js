@@ -1,11 +1,6 @@
 //all functions that wil happen when the document is created
 $(document).ready(function (){
 
-	var cookies = document.cookie.split(";");
-	for (var i = 0; i < cookies.length; i++)
-	  eraseCookie(cookies[i].split("=")[0]);
-
-	  
 	setTimeout(function showButton() {
 		$('#aboutButton').fadeIn(1500);
 	}, 2000);
